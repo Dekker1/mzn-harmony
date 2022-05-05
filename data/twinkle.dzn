@@ -1,0 +1,13 @@
+Voice = {Tenor, Lead, Baritone, Bass};
+sings_melody = Tenor;
+ranges = [Tenor: 58..70, Lead: 50..65, Baritone: 47..65, Bass: 41..58];
+Chord = {Cmaj, Dmin, Emin, Fmaj, Gmaj, Amin, Bdim};
+possible_chords = [Cmaj: {0, 4, 7}, Dmin: {2, 5, 9}, Emin: {4, 7, 11}, Fmaj: {5, 9, 0}, Gmaj: {7, 11, 2}, Amin: {9, 0, 4}, Bdim: {11, 2, 5}];
+melody = [
+  60, 60, 67, 67, 69, 69, 67, 67,
+  65, 65, 64, 64, 62, 62, 60, 60,
+  67, 67, 65, 65, 64, 64, 62, 62,
+  67, 67, 65, 65, 64, 64, 62, 62,
+  60, 60, 67, 67, 69, 69, 67, 67,
+  65, 65, 64, 64, 62, 62, 60, 60,
+];
